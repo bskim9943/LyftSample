@@ -15,7 +15,7 @@ def processJSON():
     return_string = stringCut(string_to_cut)
     #return string output
     json_return = {"return_string": return_string}
-    #return jwon
+    #return json
     return json.dumps(json_return)
 
 #function to get every 3rd letter in string
